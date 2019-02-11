@@ -1,0 +1,11 @@
+/* TEAM */
+Desenvolvedor: Lucas França Barbosa.
+E-mail: lucas.franca.barbosa@gmail.com
+Localidade: Belo Horizonte - MG, Brasil.
+
+/* SITE */
+Tecnologias: HTML5, CSS3, PHP.
+Ferramentas: Windows, Eclipse, EasyPHP.
+
+/* THANKS */
+HotMilhas - http://www.hotmilhas.com.br
