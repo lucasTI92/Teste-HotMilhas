@@ -66,25 +66,18 @@
 					</div>
 				</div>
 			</div>
-			<div id="divResposta03" >	
-				<?php include('func/Questao03.php'); ?>	
+			<div id="divResposta03" >
 				<h4 id="h4Questão03">Questão 03</h4>
-				<div id="divResposta03" class="p-2 row">	
-					<form id="formEstacionamento" action="func/Questao03.php" class="column col-md-4 align-items-center">
-						<button id="buttonRandomEstac" class="form-control col-md-10 m-auto btn-primary" onClick="">Randomizar Estacionamento</button>
-					</form>
+				<div id="divResposta03" class="p-2 row">						
+					<div id="divCalculo03" class="column col-md-4 align-items-center">
+						<button id="buttonCalcular03" class="form-control col-md-10 m-auto btn-primary" onClick="EnviarResposta('Questao03', 'spanResposta03', [])">Exibir Resposta</button>
+					</div>
 					
-					<form id="formVeiculo" action="func/Questao03.php" class="column col-md-4 align-items-center">	
-						<div id="divResposta03" class="row">	
-							<button id="buttonRandomVeic" class="form-control col-md-5 m-auto btn-primary" onClick="">Randomizar Carro</button>
-							<button id="buttonRandomVeic" class="form-control col-md-5 m-auto btn-primary" onClick="">Randomizar Moto</button>
-						</div>
-					</form>
-					
-					<form id="formMovimentacao" action="func/Questao03.php" class="column col-md-4 align-items-center">
-						<button id="buttonRandomEstac" class="form-control col-md-10 m-auto btn-primary" onClick="">Estacionar Veiculo</button>
-					</form>
-				</div>				
+					<div id="divSaida03" class="column col-md-8">
+						<span id="spanTituloResposta03">Resposta: </span>
+						<span id="spanResposta03"></span>
+					</div>
+				</div>
 			</div>
 			<div id="divResposta04">
 				<h4 id="h4Questão04">Questão 04</h4>

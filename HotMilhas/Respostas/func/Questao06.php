@@ -141,6 +141,7 @@
 		);
 		
 		for($intY = 0; $intY < count($arraySudoku); $intY++){
+						
 			$valor = $intInicio;
 			
 			for($intX = 0; $intX < count($arraySudoku[$intY]); $intX++){
@@ -151,15 +152,15 @@
 				if($valor > 9){
 					$valor = $valor % 9;
 				}
-				/*
-				if($intX == 2){
-					$intInicio = $valor + 2;
-				}*/
 			}
 			$intInicio = $intInicio + 3;
-			//$intInicio++;
+			
+			if ((($intY + 1) % 3) == 0){
+				$intInicio++;
+			}
+			
 			if($intInicio > 9){
-				$intInicio = 1;
+				$intInicio = $intInicio % 9;
 			}
 		}
 		
